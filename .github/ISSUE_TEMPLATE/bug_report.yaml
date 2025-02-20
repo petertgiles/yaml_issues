@@ -1,9 +1,9 @@
-name: Bug Report
+name: Bug Report (YAML)
 description: File a bug report.
 title: "🐛 "
 labels: ["bug"]
 projects: ["GCTC-NTGC/8"]
-type: "bug"
+type: "Bug"
 body:
   - type: markdown
     attributes:
