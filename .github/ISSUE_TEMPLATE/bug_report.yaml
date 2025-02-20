@@ -11,14 +11,14 @@ body:
   - type: textarea
     id: description-and-expected-behaviour
     attributes:
-      label: Description and expected behaviour
+      label: 🐛 Bug and Expected Behaviour
       description: Describe the issue you encountered. What should be happening?
     validations:
       required: true
   - type: textarea
     id: details
     attributes:
-      label: Details
+      label: 🕵️ Details
       description: Add any additional details that could assist with troubleshooting/fixing the issue.
       placeholder: |
         **Operating System**: Name and version (if possible).
@@ -26,7 +26,7 @@ body:
   - type: textarea
     id: steps-to-reproduce
     attributes:
-      label: Steps to Reproduce
+      label: 📋 Steps to Reproduce
       description: How can we make this happen again when testing?
       placeholder: |
         1. ...
@@ -34,12 +34,12 @@ body:
   - type: textarea
     id: screenshot
     attributes:
-      label: Screenshot
+      label: 📸 Screenshot
       description: Paste a screenshot to help illustrate the problem.
   - type: textarea
     id: proposed-solution
     attributes:
-      label: Proposed Solution
+      label: 🙋‍♀️ Proposed Solution
       description: How do you think we can fix this?
   - type: textarea
     id: acceptance-criteria
