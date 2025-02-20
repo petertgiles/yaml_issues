@@ -8,14 +8,14 @@ body:
     attributes:
       value: |
         Thanks for taking the time to fill out this bug report!
-  - type: textarea
+  - type: markdown
     id: description-and-expected-behaviour
     attributes:
       label: 🐛 Bug and Expected Behaviour
       description: Describe the issue you encountered. What should be happening?
     validations:
       required: true
-  - type: textarea
+  - type: markdown
     id: details
     attributes:
       label: 🕵️ Details
@@ -23,7 +23,7 @@ body:
       placeholder: |
         **Operating System**: Name and version (if possible).
         **Browser**: Name and version (if possible).
-  - type: textarea
+  - type: markdown
     id: steps-to-reproduce
     attributes:
       label: 📋 Steps to Reproduce
@@ -31,17 +31,17 @@ body:
       placeholder: |
         1. ...
         2. ...
-  - type: textarea
+  - type: markdown
     id: screenshot
     attributes:
       label: 📸 Screenshot
       description: Paste a screenshot to help illustrate the problem.
-  - type: textarea
+  - type: markdown
     id: proposed-solution
     attributes:
       label: 🙋‍♀️ Proposed Solution
       description: How do you think we can fix this?
-  - type: textarea
+  - type: markdown
     id: acceptance-criteria
     attributes:
       label: ✅ Acceptance Criteria
