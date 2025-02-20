@@ -3,6 +3,7 @@ description: File a bug report.
 title: "🐛 "
 labels: ["bug", "triage"]
 projects: ["GCTC-NTGC/8"]
+type: "bug"
 body:
   - type: markdown
     attributes:
@@ -13,12 +14,17 @@ body:
     attributes:
       label: What happened?
       description: Also tell us, what did you expect to happen?
-      placeholder: Tell us what you see!
-      value: "A bug happened!"
+      placeholder: Tell us what you see!      
     validations:
       required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: Details
+      description: Add any additional details that could assist with troubleshooting/fixing the issue.
   - type: textarea
     id: steps-to-reproduce
     attributes:
       label: Steps to Reproduce
       description: How can we make this happen again when testing?
+
