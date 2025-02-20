@@ -1,9 +1,8 @@
 name: Bug Report
 description: File a bug report.
 title: "🐛 "
-labels: ["bug", "triage"]
+labels: ["bug"]
 projects: ["GCTC-NTGC/8"]
-type: "bug"
 body:
   - type: markdown
     attributes:
@@ -22,6 +21,11 @@ body:
     attributes:
       label: Details
       description: Add any additional details that could assist with troubleshooting/fixing the issue.
+  - type: textarea
+    id: screenshot
+    attributes:
+      label: Screenshot
+      description: Paste a screenshot to help illustrate the problem.
   - type: textarea
     id: steps-to-reproduce
     attributes:
