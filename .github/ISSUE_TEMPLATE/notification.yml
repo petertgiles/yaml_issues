@@ -2,7 +2,6 @@ name: Notification
 description: A new type of notification.
 title: "❗ "
 projects: ["GCTC-NTGC/8"]
-type: "Feature"
 body:
   - type: markdown
     attributes:

@@ -2,7 +2,6 @@ name: "Copy"
 description: Additions or updates to the copy
 title: "🔤 "
 projects: ["GCTC-NTGC/8"]
-type: "Debt"
 labels: copy
 body:
   - type: markdown
